@@ -14,3 +14,9 @@ TravisCI badge
 
 Coveralls badge 
 [![Coverage Status](https://coveralls.io/repos/github/okezieobi/Diary-App/badge.svg?branch=ft-delete-one-entry-%23162883631)](https://coveralls.io/github/okezieobi/Diary-App?branch=ft-delete-one-entry-%23162883631)
+
+Code Climate Maintainability badge
+[![Maintainability](https://api.codeclimate.com/v1/badges/823954fdb9aa55591961/maintainability)](https://codeclimate.com/github/okezieobi/Diary-App/maintainability)
+
+Code Climate Test Coverage badge
+[![Test Coverage](https://api.codeclimate.com/v1/badges/823954fdb9aa55591961/test_coverage)](https://codeclimate.com/github/okezieobi/Diary-App/test_coverage)
