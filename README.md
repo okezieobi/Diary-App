@@ -8,3 +8,9 @@ Required Features
 
 Optional Features
 1. Users can set and get daily notifications that prompt them to add an entry to their diary.
+
+TravisCI badge
+[![Build Status](https://travis-ci.com/okezieobi/Diary-App.svg?branch=ft-delete-one-entry-%23162883631)](https://travis-ci.com/okezieobi/Diary-App)
+
+Coveralls badge 
+[![Coverage Status](https://coveralls.io/repos/github/okezieobi/Diary-App/badge.svg?branch=ft-delete-one-entry-%23162883631)](https://coveralls.io/github/okezieobi/Diary-App?branch=ft-delete-one-entry-%23162883631)
