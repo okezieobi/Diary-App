@@ -8,3 +8,13 @@ Required Features
 
 Optional Features
 1. Users can set and get daily notifications that prompt them to add an entry to their diary.
+
+TravsiCI badge
+[![Build Status](https://travis-ci.com/okezieobi/Diary-App.svg?branch=ft-get-all-entries-%23162879502)](https://travis-ci.com/okezieobi/Diary-App)
+
+Coveralls badge
+[![Coverage Status](https://coveralls.io/repos/github/okezieobi/Diary-App/badge.svg?branch=ft-delete-one-entry-%23162883631)](https://coveralls.io/github/okezieobi/Diary-App?branch=ft-delete-one-entry-%23162883631)
+
+Code Climate Badges 
+[![Maintainability](https://api.codeclimate.com/v1/badges/823954fdb9aa55591961/maintainability)](https://codeclimate.com/github/okezieobi/Diary-App/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/823954fdb9aa55591961/test_coverage)](https://codeclimate.com/github/okezieobi/Diary-App/test_coverage)
