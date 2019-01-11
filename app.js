@@ -13,10 +13,6 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-getAll(app);
-getOne(app);
-createOne(app);
-updateOne(app);
-deleteOne(app);
+app.use('/v1/', getAll, getOne, createOne, updateOne, deleteOne);
 
 export default app;
