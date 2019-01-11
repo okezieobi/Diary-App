@@ -1,0 +1,22 @@
+import express from 'express';
+import bodyParser from 'body-parser';
+import getAll from './routes/getAll';
+import getOne from './routes/getOne';
+import createOne from './routes/createOne';
+import updateOne from './routes/updateOne';
+import deleteOne from './routes/deleteOne';
+
+const app = express();
+
+app.use(bodyParser.urlencoded({
+  extended: true,
+}));
+app.use(bodyParser.json());
+
+getAll(app);
+getOne(app);
+createOne(app);
+updateOne(app);
+deleteOne(app);
+
+export default app;
