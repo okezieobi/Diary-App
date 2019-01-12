@@ -4,14 +4,18 @@
   "description": "MyDiary is an online journal where users can pen down their thoughts and feelings.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require babel-register tests/*.js --exit",
+    "branches": "mocha --require babel-register --exit",
     "start": "nodemon index.js --exec babel-node --presets env",
     "release": "npm run clean && npm run build && npm run serve",
     "clean": "rm -rf dist && mkdir dist",
     "build": "babel . -s -D -d dist --presets env --ignore node_modules",
     "serve": "node dist/index.js",
     "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
-    "codeClimate": "nyc --reporter=lcov npm test"
+    "codeClimate": "nyc --reporter=lcov npm test",
+    "branch": "mocha --require babel-register tests/getOne.js --exit",
+    "test2": "nyc --reporter=lcov npm run branches",
+    "test1": "nyc npm run branches && nyc report --reporter=text-lcov | coveralls",
+    "test": "mocha --require babel-register test/getAll.js test/getOne.js test/createOne.js test/updateOne.js test/deleteOne.js --exit"
   },
   "repository": {
     "type": "git",

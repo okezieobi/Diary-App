@@ -1,7 +1,7 @@
 import {
   chai,
-  chaiHttp,
   expect,
+  chaiHttp,
   app,
 } from './index';
 
