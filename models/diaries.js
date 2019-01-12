@@ -1,6 +1,6 @@
 const diaries = [{
   id: 0,
-  titile: 'Title',
+  title: 'Title',
   description: 'Description',
 }];
 
