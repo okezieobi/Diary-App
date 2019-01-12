@@ -1,10 +1,11 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import getAll from './routes/getAll';
-import getOne from './routes/getOne';
-import createOne from './routes/createOne';
-import updateOne from './routes/updateOne';
-import deleteOne from './routes/deleteOne';
+import getAllRouter from './routes/getAll';
+import getOneRouter from './routes/getOne';
+import createOneRouter from './routes/createOne';
+import updateOneRouter from './routes/updateOne';
+import deleteOneRouter from './routes/deleteOne';
+
 
 const app = express();
 
@@ -13,6 +14,10 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-app.use('/v1/', getAll, getOne, createOne, updateOne, deleteOne);
+app.use('/v1', getAllRouter);
+app.use('/v1', getOneRouter);
+app.use('/v1', createOneRouter);
+app.use('/v1', deleteOneRouter);
+app.use('/v1', updateOneRouter);
 
 export default app;
